@@ -3,8 +3,6 @@ This is an open source android application that does face recognition using Open
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-### Credits
-- [https://github.com/ayuso2013/](https://github.com/ayuso2013/)
 
 ### Features
 
@@ -37,8 +35,12 @@ This is an open source android application that does face recognition using Open
 ### Directories
 - **/sdcard/facerecogOCV** - Training images
 
+
+### Credits
+- [https://github.com/ayuso2013/](https://github.com/ayuso2013/)
+
 ### Original Work
-[[Marvel]](https://github.com/abhn/marvel)
+[Marvel](https://github.com/abhn/marvel)
 
 ### License
 MIT

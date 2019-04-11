@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/zxvxsbsdzfn"
+        tools:context="org.opencv.cultoftheunicorn.marvel.cultoftheunicorn.marvel.Training">
+
+        <cultoftheunicorn.marvel.Tutorial3View
+            android:id="@+id/tutorial3_activity_java_surface_view"
+            android:layout_width="286dp"
+            android:layout_height="250dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="29dp"
+            android:layout_marginStart="29dp"
+            android:layout_marginTop="35dp" />
+
+        <ImageView
+            android:id="@+id/imagePreview"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignTop="@id/tutorial3_activity_java_surface_view"
+            android:layout_marginStart="199dp"
+            android:layout_marginLeft="199dp"
+            android:layout_marginTop="5dp"
+            android:layout_toEndOf="@id/tutorial3_activity_java_surface_view"
+            android:layout_toRightOf="@id/tutorial3_activity_java_surface_view"
+            android:contentDescription="@string/image_preview"
+            android:src="@drawable/user33" />
+
+        <ToggleButton
+            android:id="@+id/capture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/imagePreview"
+            android:layout_alignRight="@+id/imagePreview"
+            android:layout_alignBottom="@+id/tutorial3_activity_java_surface_view"
+            android:layout_marginEnd="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginBottom="-33dp"
+            android:background="@drawable/rect7"
+            android:checked="false"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textOff="@string/capture"
+            android:textOn="@string/capturing" />
+
+    <Button
+        android:id="@+id/camchange"
+        android:layout_width="47dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/capture"
+        android:layout_toEndOf="@+id/tutorial3_activity_java_surface_view"
+        android:background="@drawable/invertcam"
+        android:layout_toRightOf="@+id/tutorial3_activity_java_surface_view" />
+
+    </RelativeLayout>
+
+
+

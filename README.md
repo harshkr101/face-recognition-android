@@ -6,9 +6,7 @@ This is an open source android application that does face recognition using Open
 ### Credits
 - [https://github.com/ayuso2013/](https://github.com/ayuso2013/)
 
-### Original Work
-[![Marvel]](https://github.com/abhn/marvel)
-
+### Features
 
 1. **Home page** - For switching between training and testing
 2. **Home > Training (enter ID)** - Enter ID for the train images
@@ -17,6 +15,7 @@ This is an open source android application that does face recognition using Open
 5. **Home > Recognition > Review** - Review capture results (Optionally push to database)
 
 ### Additional Changes
+
 1. **Splash Screen**
 2. **UI Changes**
 3. **Added camera button to switch between front and back camera.**
@@ -37,6 +36,9 @@ This is an open source android application that does face recognition using Open
 
 ### Directories
 - **/sdcard/facerecogOCV** - Training images
+
+### Original Work
+[[Marvel]](https://github.com/abhn/marvel)
 
 ### License
 MIT

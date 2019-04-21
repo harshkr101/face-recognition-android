@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/mainback2"
+    android:background="@drawable/splashscreen1"
     tools:context="cultoftheunicorn.marvel.SplashScreen">
 
     <TextView

@@ -10,7 +10,7 @@
     <string name="SStopTrain">Stop Training</string>
     <string name="SStopSearch">Stop Search</string>
     <string name="Straininig">Training...</string>
-    <string name="SCanntoPredic">More then one face is needed to predict</string>
+    <string name="SCanntoPredic">More than one face is needed to predict</string>
     <string name="SIdle">Idle</string>
     <string name="SFaceName">Face name:</string>
     <string name="SSearching">Searching</string>
